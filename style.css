@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: azure;
+}
+::selection{
+  color: #fff;
+}
+.fyle{
+  width: 1400px;
+  height: 700px;
+  background: #fff;
+  border-radius: 5px;
+  
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+}
+
+.fyle .border1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+.fyle .border
+{
+  border: 2.5px solid #bfbfbf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 38rem;
+}
+.fyle form{
+  margin: 40px 0;
+  padding: 0px 30px 50px 30px;
+}
+form .java{
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+form .java .input-area{
+  height: 50px;
+  width: 100%;
+  
+}
+form input{
+  overflow:0;
+  width: 100%;
+  height: 100%;
+  padding: 0 45px;
+  font-size: 18px;
+  background: none;
+  caret-color: #5372F0;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  border-bottom-width: 2px;
+}
+
+
+.java .input-area i{
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+.input-area .icon{
+  left: 15px;
+  color: #bfbfbf;
+  transition: color 0.2s ease;
+}
+.input-area .error-icon{
+  right: 15px;
+  color: #dc3545;
+}
+
+form .java.shake input:focus ~ .icon,
+form .java.error input:focus ~ .icon{
+  color: #bfbfbf;
+}
+form input::placeholder{
+  color: #bfbfbf;
+  font-size: 17px;
+}
+form .java .error-txt{
+  color: #dc3545;
+  text-align: left;
+  margin-top: 5px;
+}
+form .java .error{
+  display: none;
+}
+
+form .java.error .error{
+  display: block;
+}
+form .pass-txt{
+  text-align: left;
+  margin-top: -10px;
+}
+
+form .submit{
+  display: block;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+  color: #fff;
+  padding: 0;
+  border: none;
+  background: #5372F0;
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border-radius: .3rem;
+}
+.fyle .java .grossIncome {
+    border: px solid;
+    
+    
+}
+
+.age
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.three
+{
+    background-color: rgb(173, 175, 206);
+    height: 3rem;
+    width: 100%;
+    border-top-left-radius:.4rem ;
+    border-top-right-radius:.4rem ;
+}
+
+.three i
+{
+    padding: 0rem 1rem;
+    font-size: 2.3rem;
+    color: rgb(144, 145, 163);
+}
+
+.border2{
+ 
+  border: 2.5px solid #bfbfbf;
+  height: 30rem;
+  width: 30rem;
+
+  background-color: #fff;
+}
+
+.border3
+{
+  
+  border: 2.5px solid #bfbfbf;
+  height: 30rem;
+  width: 55.9rem;
+  
+  margin-left: -50rem;
+ display: block;
+  background: #fff;
+  padding-top: 3rem;
+}
+
+.border3 h3
+{display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6rem;
+  font-size: 1.6rem;
+  color: #6a6363;
+}
+
+.border3 p
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  color: #948f8f;
+}
+
+.border3 .button
+{
+  
+  width: 6rem;
+  height: 2rem;
+  border-radius: .2rem;
+  margin-left: 25rem;
+  margin-top: 5rem;
+  bottom: 15rem;
+  background-color: #5372F0;
+  color: #fff;
+}
+
+.border3.active
+{
+margin-left: -50rem;
+transition: 0.4s;
+}
+
+.border3 .rel
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  color: #948f8f;
+}

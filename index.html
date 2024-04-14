@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form validation in HTML & CSS | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+  <div class="fyle">
+    <div class="three">
+        <i class="fa-solid fa-ellipsis"></i>
+    </div>
+<div class="border1">
+    <div class="border">
+    <form action="#">
+
+      <div class="java grossIncome">
+        <label for="grossIncome" class="grossIncome">Enter total applicable deductions</label>
+        <div class="input-area">
+          <input type="grossIncome" id="grossIncome" placeholder="Enter total applicable deductions">
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">deductions can't be blank</div>
+      </div>
+
+
+      <div class="java extraincome">
+        <label for="extraIncome" class="extraIncome">Enter extra income</label>
+        <div class="input-area">
+          <input type="extraincome" id="extraincome" placeholder="Enter extra income">
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">extraincome can't be blank</div>
+      </div>
+
+      <label for="deductions">Enter age group</label>
+      <input type="number" placeholder="Enter your age" id="age">
+
+      <div class="java deductions">
+        <label for="deductions" class="deductions">Enter total applicable deductions</label>
+        <div class="input-area">
+          <input type="deductions" id="deductions" placeholder="Enter total applicable deductions">
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">deductions can't be blank</div>
+      </div>
+   
+      <button onclick="sub()" class="submit" id="submit"> submit </button>
+    </form>
+  </div>
+  <div id="popup" class="popup" >
+    <div class="border3" id="border3">
+      <h3>You overall income will be</h3>
+      <div id="rel" class="rel"></div> 
+      <p>after tax deductions</p>
+      <button class="button" id="button">close</button>
+          </div>
+    </div>
+</div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
